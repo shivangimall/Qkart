@@ -18,7 +18,7 @@ const Header = ({ children, hasHiddenAuthButtons }) => {
 
     localStorage.clear();
   }
-  if(hasHiddenAuthButtons)
+
 
     return (
       <Box className="header">
@@ -68,6 +68,7 @@ const Header = ({ children, hasHiddenAuthButtons }) => {
       )}
       </Box>
     );
+    
 };
 
 export default Header;

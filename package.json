@@ -32,7 +32,7 @@
     "resetMocks": false
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"
