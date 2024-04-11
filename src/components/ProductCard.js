@@ -9,8 +9,8 @@ import {
   Rating,
   Typography,
 } from "@mui/material";
-import React from "react";
 import "./ProductCard.css";
+import React from "react";
 
 const ProductCard = ({ product, handleAddToCart }) => {
 

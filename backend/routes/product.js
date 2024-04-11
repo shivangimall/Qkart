@@ -1,7 +1,8 @@
 var express = require("express");
 var router = express.Router();
-const { handleError, getProduct } = require("../utils");
 var { products } = require("../db");
+const { handleError, getProduct } = require("../utils");
+
 
 router.get("/", (req, res) => {
   console.log("Request received for retrieving products list");

@@ -110,7 +110,7 @@ const Products = () => {
   const performAPICall = async () => {
     setIsLoading(true);
     try {
-      // GET call
+      // GET call to fecth data
       let response = await axios.get(`${config.endpoint}/products`);
       //Success
       setProductDetails(response.data);

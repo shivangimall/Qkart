@@ -3,8 +3,9 @@ var router = express.Router();
 const { handleError } = require("../utils");
 var { users } = require("../db");
 const crypto = require("crypto");
-const jwt = require("jsonwebtoken");
 const config = require("../config.json");
+const jwt = require("jsonwebtoken");
+
 
 router.post("/register", (req, res) => {
   console.log(`GET request to "/auth/register" received for user}`);

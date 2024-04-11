@@ -12,7 +12,8 @@
         "nanoid": "^3.1.12",
         "nedb": "^1.8.0",
         "@testing-library/dom": "^8.13.0",
-        "typescript": "^3.2.1",
-        "@babel/core": "^7.17.10"
+        "@babel/core": "^7.17.10",
+        "typescript": "^3.2.1"
+       
     }
 }

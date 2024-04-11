@@ -3,8 +3,9 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { createMemoryHistory } from "history";
 import { SnackbarProvider } from "notistack";
-import { Router } from "react-router-dom";
 import Thanks from "../components/Thanks";
+import { Router } from "react-router-dom";
+
 
 describe("Thanks Component", () => {
   const history = createMemoryHistory();

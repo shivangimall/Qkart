@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
-const { nanoid } = require("nanoid");
 const { handleError, verifyAuth } = require("../utils");
+const { nanoid } = require("nanoid");
 var { users } = require("../db");
 
 router.get("/addresses", verifyAuth, (req, res) => {

@@ -5,8 +5,8 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 70vh;
+  align-items: center;
 }
 
 .form {

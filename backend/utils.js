@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
-const config = require('./config.json');
 var { users, products } = require('./db');
+const config = require('./config.json');
+
 
 // UTILS
 

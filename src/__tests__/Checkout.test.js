@@ -6,8 +6,9 @@ import { SnackbarProvider } from "notistack";
 import { Router } from "react-router-dom";
 import { config } from "../App";
 import Checkout from "../components/Checkout";
-import MockAdapter from "axios-mock-adapter";
 import userEvent from "@testing-library/user-event";
+import MockAdapter from "axios-mock-adapter";
+
 
 const mock = new MockAdapter(axios);
 

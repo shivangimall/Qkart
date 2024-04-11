@@ -6,8 +6,9 @@ import { createMemoryHistory } from "history";
 import { SnackbarProvider } from "notistack";
 import { Router } from "react-router-dom";
 import { config } from "../App";
-import Register from "../components/Register";
 import MockAdapter from "axios-mock-adapter";
+import Register from "../components/Register";
+
 
 const mock = new MockAdapter(axios);
 

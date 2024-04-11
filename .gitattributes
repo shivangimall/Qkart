@@ -30,7 +30,7 @@ public/manifest.json merge=copy-merge
 src/setupTests.js merge=copy-merge
 
 
-# src/__tests__
+# src/__test__
 src/__tests__/Login.test.js merge=copy-merge
 src/__tests__/App.test.js merge=copy-merge
 src/__tests__/Register.test.js merge=copy-merge

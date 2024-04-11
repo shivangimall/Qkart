@@ -1,7 +1,8 @@
 var express = require("express");
 var router = express.Router();
-const { handleError, verifyAuth, getProduct } = require("../utils");
 var { users, products } = require("../db");
+const { handleError, verifyAuth, getProduct } = require("../utils");
+
 
 // Cart Controller
 router.get("/", verifyAuth, (req, res) => {

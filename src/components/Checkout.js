@@ -15,8 +15,8 @@ import { useHistory } from "react-router-dom";
 import { config } from "../App";
 import Cart, { getTotalCartValue, generateCartItemsFrom } from "./Cart";
 import "./Checkout.css";
-import Footer from "./Footer";
 import Header from "./Header";
+import Footer from "./Footer";
 
 // Definition of Data Structures used
 /**

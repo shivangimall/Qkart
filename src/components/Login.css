@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
     height: 70vh;
+    justify-content: center;
 }
 
 .form {
